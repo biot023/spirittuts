@@ -1,3 +1,4 @@
 *.o
 qi/01_num_list1/num_list1
 qi/02_actions/actions
+qi/03_complex_number/complex_number

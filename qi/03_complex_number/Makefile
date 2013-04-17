@@ -1,6 +1,6 @@
 RM       := rm -f
 CXXFLAGS := -std=c++11 -Wall -g
-TARGET   := actions
+TARGET   := complex_number
 
 all : $(TARGET)
 

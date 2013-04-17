@@ -1,12 +1,13 @@
 RM       := rm -f
 CXXFLAGS := -std=c++11 -Wall -g
+TARGET   := num_list1
 
-all : num_list1
+all : $(TARGET)
 
 .PHONY : all clean
 
-num_list1 : num_list1.o
+$(TARGET) : $(TARGET).o
 	$(CXX) -o $@ $+
 
 clean :
-	$(RM) num_list1.o num_list1
+	$(RM) $(TARGET).o $(TARGET)
